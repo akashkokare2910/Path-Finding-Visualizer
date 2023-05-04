@@ -1,0 +1,33 @@
+.grid {
+  margin: 70px 0 0;
+}
+
+.main-button {
+  margin-top: 10px;
+  background-color: rgb(19, 219, 192);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  font-weight: 700; 
+}
+
+.main-button:hover{
+  background-color: hotpink;
+}
+
+@keyframes button-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
